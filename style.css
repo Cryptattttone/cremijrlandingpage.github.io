@@ -4,9 +4,10 @@
   padding: 0;
 }
 body {
-  font-family: Roboto, sans-serif;
+  font-family: Fredoka One, sans-serif;
   margin: 0;
   padding: 0;
+  color: #21549A;
 }
 
 header {
@@ -23,18 +24,6 @@ header {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
-}
-
-#intro img {
-  height: 400px;
-  allign-items: center;
-  margin-left: 30px;
-}
-
-header img {
-  height: 250px;
-  allign-items: center;
-  margin-left: 120px;
 }
 
 nav {
@@ -90,7 +79,7 @@ section h1 {
 }
 #map {
   width: 100%;
-  height: 350px;
+  height: 400px;
 }
 
 section p {
@@ -104,6 +93,8 @@ section ul {
   display: flex;
   justify-content: space-between;
   font-size: 18px;
+  text-align: center;
+  
 }
 
 section a {
@@ -111,9 +102,16 @@ section a {
 }
 
 #contact img {
-  height: 500px;
-  items-allign: center;
-  margin-left: 330px;
+  height: 400px;
+  items-align: center;
+  margin-left: 35px;
+}
+
+#socialmedia {
+  height: 40px !important;
+  width: 40px !important;
+  items-align: center;
+  
 }
 
 footer {
@@ -121,14 +119,11 @@ footer {
   color: white;
   text-align: center;
   padding: 20px;
+  align-content: center;
+  margin: 0;
 }
 
 footer p {
   font-size: 14px;
-  margin: 0;
-}
-
-footer img {
-  height: 80px;
-  allign-items: center;
+  margin: 3px;
 }
