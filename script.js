@@ -12,3 +12,17 @@ function initMap() {
     map: map // Mapa donde se mostrará el marcador
   });
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+  // Add smooth scrolling to all links
+  var links = document.querySelectorAll('a[href^="#"]');
+  for (var i = 0; i < links.length; i++) {
+    links[i].addEventListener('click', function(event) {
+      event.preventDefault();
+      var targetId = this.getAttribute('href');
+      document.querySelector(targetId).scrollIntoView({
+        behavior: 'smooth'
+      });
+    });
+  }
+});
